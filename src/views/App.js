@@ -1,7 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import TestComponent from './Example/testComponent';
+/**
+ * 
+ *  co 2 loại components : class component và function components
+ * 
+ * 
+ * 
+ */
 
-function App() {
+
+
+
+function App() { // arrow function
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +28,7 @@ function App() {
         >
           Learn React
         </a>
+        <TestComponent/>
       </header>
     </div>
   );
